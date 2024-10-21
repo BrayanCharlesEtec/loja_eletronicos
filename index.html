@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body style="background-color: black;">
+<body style="background-color: black;" background="img/22.jpg">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Loja Eletrônica</a>
@@ -35,9 +35,9 @@
                     <div class="card">
                         <img src="img/produto_1.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Setup 2012 AQ</h5>
-                          <p class="card-text">R$576,99</p>
-                          <a href="#" class="btn btn-primary">Negociar</a>
+                            <h5 class="card-title">Setup 2012 AQ</h5>
+                            <p class="card-text">R$576,99</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalNegociar1">Negociar</a>
                         </div>
                     </div>
                 </div>
@@ -45,9 +45,9 @@
                     <div class="card">
                         <img src="img/produto_2.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">TV 4k Hd</h5>
-                          <p class="card-text">R$964,40</p>
-                          <a href="#" class="btn btn-primary">Negociar</a>
+                            <h5 class="card-title">TV 4k Hd</h5>
+                            <p class="card-text">R$964,40</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalNegociar2">Negociar</a>
                         </div>
                     </div>
                 </div>
@@ -55,14 +55,66 @@
                     <div class="card">
                         <img src="img/produto_3.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Impressora a Tinta RGB</h5>
-                          <p class="card-text">R$499,20</p>
-                          <a href="#" class="btn btn-primary">Comprar</a>
+                            <h5 class="card-title">Impressora a Tinta RGB</h5>
+                            <p class="card-text">R$499,20</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalComprar">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="modalNegociar1" tabindex="-1" aria-labelledby="modalNegociar1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalNegociar1Label" style="color:black ;">Negociar - Setup 2012 AQ</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Transforme seu espaço de trabalho com o Setup 2012 AQ! Este sistema é ideal para quem busca eficiência e estilo. Com um design moderno e funcional, ele oferece um desempenho confiável para suas tarefas diárias, seja para trabalho ou entretenimento. O Setup 2012 AQ é a escolha perfeita para quem valoriza a combinação de praticidade e estética em seu ambiente.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="modal fade" id="modalNegociar2" tabindex="-1" aria-labelledby="modalNegociar2Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalNegociar2Label" style="color:black ;">Negociar - TV 4k Hd</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Experimente a excelência em entretenimento com nossa TV 4K HD! Com uma resolução impressionante, cada cena ganha vida com cores vibrantes e detalhes nítidos. Desfrute de suas séries, filmes e jogos favoritos como nunca antes, com tecnologia de ponta que proporciona uma experiência cinematográfica em casa. Conectividade fácil e recursos inteligentes tornam esta TV a adição perfeita para qualquer sala de estar.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="modal fade" id="modalComprar" tabindex="-1" aria-labelledby="modalComprarLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalComprarLabel" style="color:black ;">Comprar - Impressora a Tinta RGB</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Apresentamos a Impressora a Tinta RGB, a solução ideal para quem busca qualidade e versatilidade na impressão! Com a capacidade de produzir documentos nítidos e impressões vibrantes, esta impressora é perfeita para uso doméstico ou no escritório. Seus cartuchos de tinta RGB garantem cores brilhantes e duradouras, enquanto a operação silenciosa e rápida a tornam uma excelente escolha para qualquer ambiente. Não perca a oportunidade de ter resultados profissionais na palma da sua mão!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        
 
         <h3>Faça suas escolhas no melhor preço possivel!!!</h3>
 
@@ -70,17 +122,17 @@
             <h2 class="text-center mt-5"> - Contato - </h2>
             <form>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label" style="color: whitesmoke;">Seu Email </label>
+                  <label for="exampleInputEmail1" class="form-label" style="color:rgb(61, 61, 61);">Seu Email </label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                   <div id="emailHelp" class="form-text" style="color: rgba(245, 245, 245, 0.774);">Seu Email não sera exibido em nenhum outro lugar ou pessoa que não seja o dono desse site!</div>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label" style="color: whitesmoke;">Sua senha do site</label>
+                  <label for="exampleInputPassword1" class="form-label" style="color: rgb(61, 61, 61);">Sua senha do site</label>
                   <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1" style="color: antiquewhite;">Deseja manter contato comigo?</label>
+                  <label class="form-check-label" for="exampleCheck1" style="color: rgb(61, 61, 61);">Deseja manter contato comigo?</label>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
